@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="guiPortalDetailedTest" verbose="1" >
+
+    <test name="guiPortalDetailedTest" >
+        <classes>
+            <class name="com.agys.gui.guiControlPortalRest.get.GUI_Portal_Detailed_ListTest" />
+        </classes>
+    </test>
+</suite>

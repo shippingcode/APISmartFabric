@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="identityTenantsUsersProfile." verbose="1" >
+
+    <test name="identityTenantsUsersProfile." >
+        <classes>
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_ProfileTest" />
+        </classes>
+    </test>
+</suite>

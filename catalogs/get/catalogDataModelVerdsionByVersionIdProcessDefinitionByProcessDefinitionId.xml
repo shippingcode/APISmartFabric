@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="catalogDataModelVerdsionByVersionIdProcessDefinitionByProcessDefinitionId" verbose="1" >
+
+    <test name="catalogDataModelVerdsionByVersionIdProcessDefinitionByProcessDefinitionId" >
+        <classes>
+            <class name="com.agys.catalogs.modelController.get.Catalog_Data_Model_Versions_By_VersionId_ProcessDefinition_By_ProcessDefinitionIdTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="guiPortalRevisionInstallSchedule" verbose="1" >
+
+    <test name="guiPortalRevisionInstallSchedule" >
+        <classes>
+            <class name="com.agys.gui.guiControlPortalRest.post.GUI_Portal_Revision_Install_ScheduleTest" />
+        </classes>
+    </test>
+</suite>

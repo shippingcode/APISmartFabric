@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiProcessDefinitionInsert" verbose="1" >
+     <test name="engineApiProcessDefinitionInsert" >
+        <classes>
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_Process_Definition_InsertTest" />
+        </classes>
+    </test>
+</suite>

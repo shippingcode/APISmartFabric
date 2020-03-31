@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiProcessDefinitionByProcessDefinitionExternal" verbose="1" >
+     <test name="engineApiProcessDefinitionByProcessDefinitionExternal" >
+        <classes>
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_ProcessDefinition_By_ProcessDefinition_External_StartTest" />
+        </classes>
+    </test>
+</suite>

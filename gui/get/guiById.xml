@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="guiById." verbose="1" >
+
+    <test name="guiById." >
+        <classes>
+            <class name="com.agys.gui.guiRest.get.GUI_By_IdTest" />
+        </classes>
+    </test>
+</suite>

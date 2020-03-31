@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="identityTenantsUserManagerByManagerId" verbose="1" >
+
+    <test name="identityTenantsUserManagerByManagerId" >
+        <classes>
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_Manager_By_ManagerIdTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiProcessInstanceByProcessInstanceIdBlockchainResult" verbose="1" >
+     <test name="engineApiProcessInstanceByProcessInstanceIdBlockchainResult" >
+        <classes>
+            <class name="com.agys.engine.processInstanceController.post.Engine_Api_ProcessInstance_By_ProcessInstanceId_Blockchain_ResultTest" />
+        </classes>
+    </test>
+</suite>

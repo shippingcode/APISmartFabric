@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiProcessDefinitionAppURLByProcessDefinitionId" verbose="1" >
+     <test name="engineApiProcessDefinitionAppURLByProcessDefinitionId" >
+        <classes>
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_AppURL_By_ProcessDefinitionIdTest" />
+        </classes>
+    </test>
+</suite>

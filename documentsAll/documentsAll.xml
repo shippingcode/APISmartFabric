@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="documentsAll" verbose="1" >
+
+    <test name="documentsAll" >
+        <classes>
+            <class name="com.agys.documents.documentTemplateRest.get.Documents_Templates_By_IdTest" />
+            <class name="com.agys.documents.documentTemplateRest.get.Documents_Templates_exportSimpleTest" />
+            <class name="com.agys.documents.documentTemplateRest.get.Documents_Templates_ProcessDefinition_By_ProcessDefinitionIdTest" />
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_TemplatesTest" />
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_Templates_ExportSimpleTest" />
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_Templates_GenerateTest" />
+        </classes>
+    </test>
+</suite>

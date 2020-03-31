@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineAll" verbose="1" >
+
+    <test name="engineAll" >
+        <classes>
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_Activity_By_ActivityIdTest" />
+            <class name="com.agys.engine.appfileTransferController.get.Engine_Api_App_Files_By_FileUUID_By_TypeTest" />
+            <class name="com.agys.engine.genericFlowController.get.Engine_Api_Flow_Activity_By_ActivityId_ActionsTest" />
+            <class name="com.agys.engine.genericFlowController.post.Engine_Api_Flow_ApprovalSubmitTest" />
+            <class name="com.agys.engine.liveViewController.Engine_Api_LiveView_Task_Details_ByActivity_ByActivityIdTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_Activities_By_ProcessDefinitionIdTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_All_ProcessesTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_AppURL_By_ProcessDefinitionIdTest" />
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_ProcessDefinition_By_ProcessDefinition_External_StartTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdActivateTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdDiagramTest" />
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_ProcessDefinition_By_ProcessDefinitionId_ProcessInstances_ActiveTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdProcessInstancesFinishedTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdStartTest" />
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_Details_By_ProcessDefinitionIdTest" />
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_Process_Definition_InsertTest" />
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdTest" />
+            <class name="com.agys.engine.processInstanceController.post.Engine_Api_ProcessInstance_By_ProcessInstanceId_Blockchain_ResultTest" />
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceId_ProcessDefinitionIdTest" />
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdVersionIdTest" />
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdVersioningTest" />
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_App_StatisticsTest" />
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_My_AppsTest" />
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_Task_StatisticsTest" />
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_Task_StatisticsTest" />
+            <class name="com.agys.engine.taskController.delete.Engine_Task_Filter_Delete_By_FiterIdTest" />
+            <class name="com.agys.engine.taskController.get.Engine_Task_Filter_By_FilterIdTest" />
+            <class name="com.agys.engine.taskController.get.Engine_Task_Filter_List_By_OwnerIdTest" />
+            <class name="com.agys.engine.taskController.post.Engine_Task_Caim_By_TaskIdTest" />
+            <class name="com.agys.engine.taskController.post.Engine_Task_Filter_CreateTest" />
+            <class name="com.agys.engine.taskController.post.Engine_Task_ListTest" />
+            <class name="com.agys.engine.variableController.get.Engine_Api_VariablesTest" />
+            <class name="com.agys.engine.variableController.post.Engine_Api_Variables_InternalTest" />
+            <class name="com.agys.engine.versionController.get.Engine_Api_Version_By_VersionIdTest" />
+            <class name="com.agys.engine.versionController.get.Engine_Api_Version_LatestTest" />
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="identityAdminGroupsByGroupId" verbose="1" >
+
+    <test name="identityAdminGroupsByGroupId" >
+        <classes>
+            <class name="com.agys.identity.adminController.get.Identity_Admin_Groups_ByGroupIdTest" />
+        </classes>
+    </test>
+</suite>

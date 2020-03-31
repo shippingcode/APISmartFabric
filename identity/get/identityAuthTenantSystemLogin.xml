@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="identityAuthTenantSystemLogin" verbose="1" >
+
+    <test name="identityAuthTenantSystemLogin" >
+        <classes>
+            <class name="com.agys.identity.systemController.get.Identity_Auth_Tenant_System_LoginTest" />
+        </classes>
+    </test>
+</suite>

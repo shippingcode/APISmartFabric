@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="guiVersionByVersionIdProcessDefinitionByProcessDefinitionId" verbose="1" >
+
+    <test name="guiVersionByVersionIdProcessDefinitionByProcessDefinitionId" >
+        <classes>
+            <class name="com.agys.gui.guiRest.get.GUI_Version_By_VersionId_ProcessDefinition_By_ProcessDefinitionIdTest" />
+        </classes>
+    </test>
+</suite>

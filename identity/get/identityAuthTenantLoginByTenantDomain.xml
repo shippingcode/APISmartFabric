@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="identityAuthTenantLoginByTenantDomain" verbose="1" >
+
+    <test name="identityAuthTenantLoginByTenantDomain" >
+        <classes>
+            <class name="com.agys.identity.authenticationController.get.Identity_Auth_TenantAnonLogin_By_TenantDomainTest" />
+        </classes>
+    </test>
+</suite>

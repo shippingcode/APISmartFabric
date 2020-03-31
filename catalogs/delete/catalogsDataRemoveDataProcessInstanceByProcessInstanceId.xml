@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="catalogsDataRemoveDataProcessInstanceByProcessInstanceId" verbose="1" >
+     <test name="catalogsDataRemoveDataProcessInstanceByProcessInstanceId" >
+        <classes>
+            <class name="com.agys.catalogs.processInstanceDataController.delete.Catalog_Data_removeData_ProcessInstance_By_ProcessInstanceIdTest" />
+        </classes>
+    </test>
+</suite>

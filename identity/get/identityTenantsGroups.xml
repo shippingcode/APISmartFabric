@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="identityTenantsGroups" verbose="1" >
+
+    <test name="identityTenantsGroups" >
+        <classes>
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_GroupsTest" />
+        </classes>
+    </test>
+</suite>

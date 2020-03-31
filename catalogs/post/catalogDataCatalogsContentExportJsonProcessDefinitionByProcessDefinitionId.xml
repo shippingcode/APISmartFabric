@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="documentsTemplates" verbose="1" >
+
+    <test name="documentsTemplates" >
+        <classes>
+            <class name="com.agys.catalogs.catalogImportExportController.post.Catalog_Data_Catalogs_Content_Export_Json_ProcessDefinition_By_ProcessDefinitionIdTest" />
+        </classes>
+    </test>
+</suite>

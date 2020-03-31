@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="catalogDataLoadDataProcessInstanceByProcessInstanceId." verbose="1" >
+
+    <test name="catalogDataLoadDataProcessInstanceByProcessInstanceId." >
+        <classes>
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_LoadData_ProcessInstance_By_ProcessInstanceIdTest" />
+        </classes>
+    </test>
+</suite>

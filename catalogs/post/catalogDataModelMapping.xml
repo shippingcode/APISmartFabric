@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="catalogDataModelMapping" verbose="1" >
+
+    <test name="catalogDataModelMapping" >
+        <classes>
+            <class name="com.agys.catalogs.modelController.post.Catalog_Data_Model_MappingTest" />
+        </classes>
+    </test>
+</suite>

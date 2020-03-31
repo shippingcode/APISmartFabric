@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="documentsTemplatesGenerate" verbose="1" >
+
+    <test name="documentsTemplatesGenerate" >
+        <classes>
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_Templates_GenerateTest" />
+        </classes>
+    </test>
+</suite>

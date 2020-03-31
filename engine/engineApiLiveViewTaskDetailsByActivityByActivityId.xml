@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiLiveViewTaskDetailsByActivityByActivityId" verbose="1" >
+     <test name="engineApiLiveViewTaskDetailsByActivityByActivityId" >
+        <classes>
+            <class name="com.agys.engine.liveViewController.Engine_Api_LiveView_Task_Details_ByActivity_ByActivityIdTest" />
+        </classes>
+    </test>
+</suite>

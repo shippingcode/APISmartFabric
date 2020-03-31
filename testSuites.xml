@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="testSuites">
+
+
+    <test name="testSuites">
+
+
+        <classes>
+
+            <class name="com.agys.catalogs.catalogDefinitionController.get.Catalog_Data_Catalogs_Definition_Version_By_VersionId_ProcessDefinitionId_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.catalogImportExportController.post.Catalog_Data_Catalogs_Content_Export_Json_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.catalogImportExportController.post.Catalog_Data_Catalogs_Content_Export_Version_By_VersionId_ProcessDefinition_By_ProcessDefinitionTest"/>
+
+            <class name="com.agys.catalogs.catalogImportExportController.post.Catalog_Data_Catalogs_Content_Import_Version_By_VersionId_ProcessDefinition_By_ProcessDefinitionTest"/>
+
+            <class name="com.agys.catalogs.modelController.get.Catalog_Data_Model_CoreEntitiesTest"/>
+
+            <class name="com.agys.catalogs.modelController.get.Catalog_Data_Model_PrimitiveTypesTest"/>
+
+            <class name="com.agys.catalogs.modelController.get.Catalog_Data_Model_Versions_By_VersionIdTest"/>
+
+            <class name="com.agys.catalogs.modelController.get.Catalog_Data_Model_Versions_By_VersionId_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.modelController.post.Catalog_Data_Model_JsonPathTest"/>
+
+            <class name="com.agys.catalogs.modelController.post.Catalog_Data_Model_MappingTest"/>
+
+            <class name="com.agys.catalogs.modelDefinitionController.get.Catalog_Data_Model_Definition_Version_By_VersionIdTest"/>
+
+            <class name="com.agys.catalogs.modelDefinitionController.get.Catalog_Data_Model_Definition_Version_By_VersionId_ProcessDefinition_By_processDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.modelDefinitionController.get.Catalog_Data_Model_Definition_Version_By_VersionId_ProcessDefinition_By_processDefinition_Type_By_TypeIdTest"/>
+
+            <class name="com.agys.catalogs.modelDefinitionController.get.Catalog_Data_Model_Definition_Version_By_VersionId_Type_By_TypeIdTest"/>
+
+            <class name="com.agys.catalogs.modelDefinitionController.post.Catalog_Data_Model_Definition_Version_By_VersionId_ProcessDefinition_By_ProcessDefinition_Type_By_TypeTest"/>
+
+            <class name="com.agys.catalogs.modelDefinitionController.post.Catalog_Data_Model_Definition_Version_By_VersionId_Type_By_TypeTest"/>
+
+            <class name="com.agys.catalogs.post.Catalog_Data_Catalogs_Content_Load_Version_By_Versionid_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.post.Catalog_Data_Catalogs_Content_Save_Version_By_Versionid_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.post.Catalog_Data_Catalogs_Definition_Version_By_Versionid_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.catalogs.processInstanceDataController.delete.Catalog_Data_removeData_ProcessInstance_By_ProcessInstanceIdTest"/>
+
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_LoadData_InternalTest"/>
+
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_LoadData_ProcessInstance_By_ProcessInstanceIdTest"/>
+
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_LoadData_ProcessInstance_By_ProcessInstanceId_Gui_By_GuiIdTest"/>
+
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_LoadData_ProcessInstance_By_ProcessInstanceId_MappingIdTest"/>
+
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_Query_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.documents.documentTemplateRest.get.Documents_Templates_By_IdTest"/>
+
+            <class name="com.agys.documents.documentTemplateRest.get.Documents_Templates_exportSimpleTest"/>
+
+            <class name="com.agys.documents.documentTemplateRest.get.Documents_Templates_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_TemplatesTest"/>
+
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_Templates_ExportSimpleTest"/>
+
+            <class name="com.agys.documents.documentTemplateRest.post.Documents_Templates_GenerateTest"/>
+
+            <class name="com.agys.engine.appfileTransferController.get.Engine_Api_App_Files_By_FileUUID_By_TypeTest"/>
+
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_App_StatisticsTest"/>
+
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_My_AppsTest"/>
+
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_Task_StatisticsTest"/>
+
+            <class name="com.agys.engine.genericFlowController.get.Engine_Api_Flow_Activity_By_ActivityId_ActionsTest"/>
+
+            <class name="com.agys.engine.genericFlowController.post.Engine_Api_Flow_ApprovalSubmitTest"/>
+
+            <class name="com.agys.engine.genericFlowController.post.Engine_Api_Flow_GuiSubmitTest"/>
+
+            <class name="com.agys.engine.liveViewController.Engine_Api_LiveView_Task_Details_ByActivity_ByActivityIdTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_Activities_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_Activity_By_ActivityIdTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_All_ProcessesTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_AppURL_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdActivateTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdDiagramTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdProcessInstancesFinishedTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdStartTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.get.Engine_Api_ProcessDefinition_Details_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_ProcessDefinition_By_ProcessDefinitionId_ProcessInstances_ActiveTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_ProcessDefinition_By_ProcessDefinition_External_StartTest"/>
+
+            <class name="com.agys.engine.processDefinitionController.post.Engine_Api_Process_Definition_InsertTest"/>
+
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdTest"/>
+
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdVersionIdTest"/>
+
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdVersioningTest"/>
+
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceId_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.engine.processInstanceController.post.Engine_Api_ProcessInstance_By_ProcessInstanceId_Blockchain_ResultTest"/>
+
+            <class name="com.agys.engine.taskController.delete.Engine_Task_Filter_Delete_By_FiterIdTest"/>
+
+            <class name="com.agys.engine.taskController.get.Engine_Task_Filter_By_FilterIdTest"/>
+
+            <class name="com.agys.engine.taskController.get.Engine_Task_Filter_List_By_OwnerIdTest"/>
+
+            <class name="com.agys.engine.taskController.post.Engine_Task_Caim_By_TaskIdTest"/>
+
+            <class name="com.agys.engine.taskController.post.Engine_Task_Filter_CreateTest"/>
+
+            <class name="com.agys.engine.taskController.post.Engine_Task_ListTest"/>
+
+            <class name="com.agys.engine.variableController.get.Engine_Api_VariablesTest"/>
+
+            <class name="com.agys.engine.variableController.post.Engine_Api_Variables_InternalTest"/>
+
+            <class name="com.agys.engine.versionController.get.Engine_Api_Version_By_VersionIdTest"/>
+
+            <class name="com.agys.engine.versionController.get.Engine_Api_Version_LatestTest"/>
+
+            <class name="com.agys.GETUserByIdTest"/>
+
+            <class name="com.agys.gui.controlRest.get.GUI_Control_ListTest"/>
+
+            <class name="com.agys.gui.get.GUI_Control_Id_By_IdTest"/>
+
+            <class name="com.agys.gui.guiControlPortalRest.get.GUI_Portal_Detailed_ListTest"/>
+
+            <class name="com.agys.gui.guiControlPortalRest.post.GUI_Portal_Revision_Install_ScheduleTest"/>
+
+            <class name="com.agys.gui.guiRest.delete.GUI_By_IdTest"/>
+
+            <class name="com.agys.gui.guiRest.get.GUI_Activity_By_ActivityIdTest"/>
+
+            <class name="com.agys.gui.guiRest.get.GUI_All_Version_By_VersionIdTest"/>
+
+            <class name="com.agys.gui.guiRest.get.GUI_By_IdTest"/>
+
+            <class name="com.agys.gui.guiRest.get.GUI_Control_ListTest"/>
+
+            <class name="com.agys.gui.guiRest.get.GUI_Used_Process_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.gui.guiRest.get.GUI_Version_By_VersionId_ProcessDefinition_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.gui.post.GUI_Control_Revision_SaveTest"/>
+
+            <class name="com.agys.gui.post.GUI_Portal_Revision_Install_ScheduleTest"/>
+
+            <class name="com.agys.identity.adminController.get.Identity_Admin_Groups_ByGroupIdTest"/>
+
+            <class name="com.agys.identity.adminController.get.Identity_Admin_Groups_Users_By_UserGroupIdTest"/>
+
+            <class name="com.agys.identity.adminController.get.Identity_Admin_Tenants_By_TenantIdTest"/>
+
+            <class name="com.agys.identity.adminController.get.Identity_Admin_Tenants_Users_ByUserTenantIdTest"/>
+
+            <class name="com.agys.identity.adminController.get.Identity_Admin_Users_ByUserIdTest"/>
+
+            <class name="com.agys.identity.adminController.post.Identity_Admin_GroupsTest"/>
+
+            <class name="com.agys.identity.adminController.post.Identity_Admin_Groups_UsersTest"/>
+
+            <class name="com.agys.identity.adminController.post.Identity_Admin_TenantsTest"/>
+
+            <class name="com.agys.identity.adminController.post.Identity_Admin_Tenants_UsersTest"/>
+
+            <class name="com.agys.identity.adminController.post.Identity_Admin_UsersTest"/>
+
+            <class name="com.agys.identity.authenticationController.get.Identity_Auth_TenantAnonLogin_By_TenantDomainTest"/>
+
+            <class name="com.agys.identity.authenticationController.post.Identity_Auth_SystemUserLoginTest"/>
+
+            <class name="com.agys.identity.authenticationController.post.Identity_Auth_TenantUserLoginTest"/>
+
+            <class name="com.agys.identity.systemController.get.Identity_Auth_Tenant_System_LoginTest"/>
+
+            <class name="com.agys.identity.systemController.get.Identity_Tenants_Groups_By_GrouspIdTest"/>
+
+            <class name="com.agys.identity.tenantController.delete.Identity_Tenants_UserGroups_By_GroupsId_And_By_UserIdTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Auth_Tenant_System_LoginTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Groups_By_GrouspIdTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_UserGroups_By_IdsTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_UsersTenants_By_UserIdTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_UsersTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_AvatarTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_By_UserIdTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_Email_By_EmailTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_Group_By_GroupIdTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_Manager_By_ManagerIdTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_ProfileTest"/>
+
+            <class name="com.agys.identity.tenantController.get.Identity_Tenants_Users_Profile_NotificationTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Idenity_Tenants_UsersTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_GroupsTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Groups_PermissionsTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Groups_UsersTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_UserGroupsTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_UsersTenantsTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Users_ListTest"/>
+
+            <class name="com.agys.identity.permissionController.post.Identity_Permisisons_GroupPermisisonsTest"/>
+
+            <class name="com.agys.identity.permissionController.post.Identity_Permisisons_UserPermisisonsTest"/>
+
+            <class name="com.agys.identity.permissionController.get.Identity_Permissions_GroupPermissions_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.identity.permissionController.get.Identity_Permissions_UserPermissions_By_ProcessDefinitionIdTest"/>
+
+            <class name="com.agys.identity.resetPasswordController.post.Identity_Public_ResetPassword_By_UserEmailTest"/>
+
+            <class name="com.agys.identity.resetPasswordController.post.Identity_Public_SetPassswordTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Idenity_Tenants_CheckPassword_By_User_EmailTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Group_AdminUITest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Group_ByIdsTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Group_CodesTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Idenity_Tenants_Users_AvatarsTest"/>
+
+
+            <class name="com.agys.identity.tenantController.post.Idenity_Tenants_Users_Profile_NotificationTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Idenity_Tenants_Users_ProfilesTest"/>
+
+            <class name="com.agys.identity.tenantController.post.Identity_Tenants_Users_AdminUITest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

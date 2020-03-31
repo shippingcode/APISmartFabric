@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiProcessInstanceByProcessInstanceIdVersioning" verbose="1" >
+     <test name="engineApiProcessInstanceByProcessInstanceIdVersioning" >
+        <classes>
+            <class name="com.agys.engine.processInstanceController.get.Engine_Api_ProcessInstance_By_ProcessInstanceIdVersioningTest" />
+        </classes>
+    </test>
+</suite>

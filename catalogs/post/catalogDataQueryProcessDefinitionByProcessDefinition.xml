@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="catalogDataQueryProcessDefinitionByProcessDefinition" verbose="1" >
+
+    <test name="catalogDataQueryProcessDefinitionByProcessDefinition" >
+        <classes>
+            <class name="com.agys.catalogs.processInstanceDataController.post.Catalog_Data_Query_ProcessDefinition_By_ProcessDefinitionIdTest" />
+        </classes>
+    </test>
+</suite>

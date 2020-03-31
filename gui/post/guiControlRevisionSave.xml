@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="guiControlRevisionSave" verbose="1" >
+
+    <test name="guiControlRevisionSave" >
+        <classes>
+            <class name="com.agys.gui.post.GUI_Control_Revision_SaveTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineDashboardTaskStatistics" verbose="1" >
+     <test name="engineDashboardTaskStatistics" >
+        <classes>
+            <class name="com.agys.engine.dashboardController.get.Engine_Dashboard_Task_StatisticsTest" />
+        </classes>
+    </test>
+</suite>

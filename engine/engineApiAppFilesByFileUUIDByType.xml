@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="engineApiAppFilesByFileUUIDByTyp" verbose="1" >
+     <test name="engineApiAppFilesByFileUUIDByTyp" >
+        <classes>
+            <class name="com.agys.engine.appfileTransferController.get.Engine_Api_App_Files_By_FileUUID_By_TypeTest" />
+        </classes>
+    </test>
+</suite>
